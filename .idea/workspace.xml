@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b749a07-ea76-480f-9603-b03241763e8d" name="Default" comment="" />
+    <list default="true" id="3b749a07-ea76-480f-9603-b03241763e8d" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nanoserver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nanoserver.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nanoserver_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nanoserver_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/nanoserver_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/nanoserver_test.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,9 +58,11 @@
       <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/response/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2128">
-              <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
+            <state relative-caret-position="166">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
+                <element signature="method#header#0;class#Response#0" />
+                <element signature="method#getMime#0;class#Response#0" />
                 <element signature="e#3812#3813#0" expanded="true" />
                 <element signature="e#3843#3844#0" expanded="true" />
                 <element signature="e#3888#3889#0" expanded="true" />
@@ -317,9 +323,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6109971605000" />
+        <entry key="$PROJECT_DIR$" value="6110047865000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2269693811" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3316461488" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="2496183026" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3737174117" />
       </map>
@@ -550,13 +556,13 @@
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/NanoServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/nio/StreamBuffer.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/nio/NIOSocketWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/response/Response.java" />
         <option value="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/licence.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/response/Response.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
   </component>
@@ -580,6 +586,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -618,13 +625,40 @@
               <item name="NanoServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nanoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nanoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="response" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nanoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -745,15 +779,17 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Analyze Dataflow from" weight="0.48575306" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.502574" side_tool="true" weight="0.3280116" />
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.49340865" weight="0.32947233" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32027027" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497426" visible="true" weight="0.3283582" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.497426" visible="true" weight="0.32700136" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24903475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25225225" />
       <window_info anchor="bottom" id="Build" order="8" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
       <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49340865" weight="0.32947233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24967825" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4858757" weight="0.24967825" />
@@ -767,32 +803,31 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32702702" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5141243" side_tool="true" weight="0.24967825" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49340865" weight="0.32947233" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3207547" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22651222" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4858757" weight="0.24967825" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3207547" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
-      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49340865" weight="0.32947233" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.497426" weight="0.3280116" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502574" side_tool="true" weight="0.3280116" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3280116" />
-      <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5141243" side_tool="true" weight="0.24967825" />
+      <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49340865" weight="0.32947233" />
       <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
   </component>
@@ -1026,10 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="798">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,13 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="302">
           <caret line="178" column="34" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
-          <folding>
-            <element signature="method#onWriteFinished#0;class#NanoServer#0" />
-            <element signature="e#4985#4986#0" expanded="true" />
-            <element signature="e#5025#5026#0" expanded="true" />
-            <element signature="e#5142#5143#0" expanded="true" />
-            <element signature="e#5166#5167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1079,19 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/response/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2128">
-          <caret line="152" column="30" selection-start-line="152" selection-start-column="30" selection-end-line="152" selection-end-column="30" />
-          <folding>
-            <element signature="e#3812#3813#0" expanded="true" />
-            <element signature="e#3843#3844#0" expanded="true" />
-            <element signature="e#3888#3889#0" expanded="true" />
-            <element signature="e#3928#3929#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1141,6 +1152,21 @@
           <second_editor>
             <markdownNavigatorState />
           </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/response/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="method#header#0;class#Response#0" />
+            <element signature="method#getMime#0;class#Response#0" />
+            <element signature="e#3812#3813#0" expanded="true" />
+            <element signature="e#3843#3844#0" expanded="true" />
+            <element signature="e#3888#3889#0" expanded="true" />
+            <element signature="e#3928#3929#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

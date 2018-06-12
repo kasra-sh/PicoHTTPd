@@ -143,4 +143,8 @@ public class Request {
     public void setAddress(SocketAddress address) {
         this.address = address;
     }
+
+    public ConcurrentHashMap<String, String> getHeaders() {
+        return headers;
+    }
 }
