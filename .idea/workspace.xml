@@ -81,6 +81,19 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/request/Request.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="23" />
+              <folding>
+                <element signature="e#3189#3190#0" expanded="true" />
+                <element signature="e#3219#3220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="gradle.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gradle.properties">
           <provider selected="true" editor-type-id="text-editor" />
@@ -323,9 +336,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6110047865000" />
+        <entry key="$PROJECT_DIR$" value="6110054600000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3316461488" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="42145525" />
         <entry key="$PROJECT_DIR$/gradle.properties" value="2496183026" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3737174117" />
       </map>
@@ -547,7 +560,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/interfaces/FailListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/tasks/DeadWatcher.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/tasks/ReadTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/request/Request.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/request/HTTPMethod.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/tasks/models/WritePair.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/tasks/WriteTask.java" />
@@ -562,6 +574,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/response/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/request/Request.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
       </list>
     </option>
@@ -628,6 +641,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="nanoserver" type="462c0819:PsiDirectoryNode" />
               <item name="http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nanoserver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NanoServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nanoserver" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="request" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="nanoserver" type="b2602c69:ProjectViewProjectNode" />
@@ -775,7 +798,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1600" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1001,13 +1023,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/request/Request.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/tasks/ReadTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-54">
@@ -1166,6 +1181,17 @@
             <element signature="e#3843#3844#0" expanded="true" />
             <element signature="e#3888#3889#0" expanded="true" />
             <element signature="e#3928#3929#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/http/request/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="147" column="8" selection-start-line="147" selection-start-column="8" selection-end-line="147" selection-end-column="23" />
+          <folding>
+            <element signature="e#3189#3190#0" expanded="true" />
+            <element signature="e#3219#3220#0" expanded="true" />
           </folding>
         </state>
       </provider>
