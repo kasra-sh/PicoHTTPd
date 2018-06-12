@@ -21,7 +21,6 @@ public class Response {
     private boolean streamBody = false;
     private int sBodyLen;
     private InputStream sBody;
-    private String mime;
     private ArrayList<Entry<String,String>> headers = new ArrayList<>();
     private ArrayList<Cookie> cookies = new ArrayList<>();
 
@@ -41,7 +40,7 @@ public class Response {
     }
 
     public Response type(String mime) {
-        this.mime = mime;
+        setMime(mime);
         return this;
     }
 
@@ -83,13 +82,13 @@ public class Response {
         for (Entry<String,String> hdr: headers) {
             sb.append(hdr.getKey()).append(": ").append(hdr.getValue()).append("\r\n");
         }
+
         for (Cookie c: cookies) {
             sb.append("Set-Cookie: ").append(c.build()).append("\r\n");
         }
         sb.append("\r\n");
 
         String bs = sb.toString();
-//        System.out.println(bs);
         byte[] hd = bs.getBytes(StandardCharsets.UTF_8);
         if (body==null) body = new byte[0];
         byte[] all = new byte[hd.length+body.length];
@@ -131,11 +130,26 @@ public class Response {
     }
 
     public String getMime() {
-        return mime;
+        for (Entry<String,String> e: headers) {
+            if (e.getKey().equalsIgnoreCase("Content-Type")) {
+                return e.getValue();
+            }
+        }
+        return null;
     }
 
-    public void setMime(String mime) {
-        this.mime = mime;
+    public Response setMime(String mime) {
+        if (getMime()==null)
+            headers.add(new SimpleEntry<String, String>("Content-Type",mime));
+        else {
+            for (Entry<String, String> h : headers) {
+                if (h.getKey().equalsIgnoreCase("Content-Type")) {
+                    h.setValue(mime);
+                    return this;
+                }
+            }
+        }
+        return this;
     }
 
     public ArrayList<Cookie> getCookies() {
