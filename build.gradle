@@ -1,5 +1,5 @@
 group 'ir.kasra-sh'
-version '0.8.2'
+version '0.8.3'
 apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'maven'
