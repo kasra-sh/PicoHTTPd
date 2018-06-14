@@ -19,15 +19,15 @@ dependencies {
 #### Usage :
 ```java
 // Use default config
-Nano n = Nano.getDefault();
+Pico pico = Pico.getDefault();
 
 // or custom config
-n = Nano.get().setExecutor(Executors.newWorkStealingPool(4));
+pico = Pico.get().setExecutor(Executors.newWorkStealingPool(4));
 // or
-n = Nano.get().setExecutor(new ForkJoinPool(4));
+pico = Pico.get().setExecutor(new ForkJoinPool(4));
 
 // Set handler
-n.setHandler(new HTTPHandler() {
+pico.setHandler(new HTTPHandler() {
     @Override
     public void handleRequest(Request r, ResponseWriter w) {
         // ResponseWriter accepts Response/byte[] or an InputStream with a byte-array as header
@@ -36,7 +36,7 @@ n.setHandler(new HTTPHandler() {
 });
 
 // Listen for connections on port 8000
-n.start(8000);
+pico.start(8000);
 ```
 #### TODO :
 - WebSocket support.
