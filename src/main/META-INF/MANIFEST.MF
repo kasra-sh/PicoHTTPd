@@ -1,3 +1,3 @@
 Manifest-Version: 1.0
-Main-Class: ir.kasra_sh.nanoserver.Test
+Main-Class: ir.kasra_sh.picohttpd.Test
 

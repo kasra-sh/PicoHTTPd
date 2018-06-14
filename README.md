@@ -1,4 +1,4 @@
-# NanoServer
+# PicoHTTPd
 [![](https://jitpack.io/v/kasra-sh/nanoserver.svg)](https://jitpack.io/#kasra-sh/nanoserver)
 ### Minimal Embeddable NIO HTTP Server
 #### Import :

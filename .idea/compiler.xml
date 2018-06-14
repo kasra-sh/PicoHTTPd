@@ -7,9 +7,9 @@
       <module name="nanoserver_core_main" target="1.8" />
       <module name="nanoserver_core_test" target="1.8" />
       <module name="NanoServer_main" target="1.8" />
-      <module name="nanoserver_main" target="1.8" />
       <module name="NanoServer_test" target="1.8" />
-      <module name="nanoserver_test" target="1.8" />
+      <module name="picohttpd_main" target="1.8" />
+      <module name="picohttpd_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

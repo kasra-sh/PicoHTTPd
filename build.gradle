@@ -19,9 +19,9 @@ dependencies {
 // makes fat jar with all dependencies
 task fatJar(type: Jar) {
     manifest {
-        attributes 'Implementation-Title': 'Nano Server',
+        attributes 'Implementation-Title': 'Pico Http Server',
                 'Implementation-Version': version,
-                'Main-Class': 'ir.kasra_sh.nanoserver.Test'
+                'Main-Class': 'ir.kasra_sh.picohttpd.Test'
     }
     baseName = project.name + '-core'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
@@ -29,7 +29,7 @@ task fatJar(type: Jar) {
 }
 
 task run(type: JavaExec) {
-    main = 'ir.kasra_sh.nanoserver.Test'
+    main = 'ir.kasra_sh.picohttpd.Test'
     classpath = sourceSets.main.runtimeClasspath
 }
 
