@@ -1,5 +1,5 @@
 # PicoHTTPd
-[![](https://jitpack.io/v/kasra-sh/nanoserver.svg)](https://jitpack.io/#kasra-sh/nanoserver)
+[![](https://jitpack.io/v/kasra-sh/picohttpd.svg)](https://jitpack.io/#kasra-sh/nanoserver)
 ### Minimal Embeddable NIO HTTP Server
 #### Import :
 Include these in your project's build.gradle file
