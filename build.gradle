@@ -1,11 +1,11 @@
 group 'ir.kasra-sh'
-version '0.8.3'
+version '0.8.4'
 apply plugin: 'idea'
 apply plugin: 'java'
 apply plugin: 'maven'
 
 
-sourceCompatibility = 1.8
+sourceCompatibility = 1.7
 
 repositories {
     mavenCentral()
