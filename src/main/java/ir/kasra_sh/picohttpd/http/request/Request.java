@@ -45,11 +45,11 @@ public class Request {
     }
 
     public String getArg(String k) {
-        return headers.get(k);
+        return args.get(k);
     }
 
     public boolean hasArg(String k) {
-        return headers.containsKey(k);
+        return args.containsKey(k);
     }
 
     // HTTP Headers
@@ -146,6 +146,10 @@ public class Request {
 
     public ConcurrentHashMap<String, String> getHeaders() {
         return headers;
+    }
+
+    public ConcurrentHashMap<String, String> getArgs() {
+        return args;
     }
 
 }

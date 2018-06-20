@@ -13,7 +13,7 @@ repositories {
 ```java
 dependencies {
 	...
-	compile 'com.github.kasra-sh:picohttpd:0.8.4'
+	compile 'com.github.kasra-sh:picohttpd:0.8.5'
 }
 ```
 
