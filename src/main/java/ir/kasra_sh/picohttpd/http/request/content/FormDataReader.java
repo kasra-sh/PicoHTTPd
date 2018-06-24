@@ -14,10 +14,15 @@ public class FormDataReader {
 
     private byte[] bytes;
     private String mime;
+    List<FormData> formDataList = new ArrayList<>();
 
-    public FormDataReader(byte[] bytes, String mime) {
-        this.bytes = bytes;
-        this.mime = mime;
+    public FormDataReader(Request r) throws FormDataParseException {
+        this.bytes = r.getBody();
+        this.mime = r.getHeader("content-type");
+        formDataList = readFormData(r);
+    }
+
+    public FormDataReader() {
     }
 
     public boolean isJson() {
@@ -37,6 +42,10 @@ public class FormDataReader {
     }
 
     public List<FormData> readFormData(Request r) throws FormDataParseException {
+        if (bytes == null) {
+            bytes = r.getBody();
+            mime = r.getHeader("content-type");
+        }
         return readFormData(r.getHeader("Content-Type").split("; boundary=")[1]);
     }
 
