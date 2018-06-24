@@ -11,10 +11,10 @@ public class DeadWatcher {
         socks.put(s, System.currentTimeMillis());
     }
 
-    public boolean shouldRemove(SocketChannel s) {
+    public boolean shouldRemove(SocketChannel s, int timeout) {
         Long st = socks.get(s);
         if (st != null)
-            return System.currentTimeMillis() - socks.get(s) > 5000;
+            return System.currentTimeMillis() - socks.get(s) > timeout;
         else
             return false;
     }

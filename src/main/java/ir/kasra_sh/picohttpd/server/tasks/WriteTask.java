@@ -18,6 +18,7 @@ public class WriteTask implements Runnable {
     private Selector selector;
     private WriteFinishListener listener;
     private ConcurrentLinkedQueue<WritePair> writes = new ConcurrentLinkedQueue<>();
+    private DeadWatcher watcher = new DeadWatcher();
 
     public WriteTask(WriteFinishListener listener) throws IOException {
         this.listener = listener;
@@ -25,10 +26,12 @@ public class WriteTask implements Runnable {
     }
 
     public void addWrite(SocketChannel s, byte[] data){
+        watcher.add(s);
         writes.add(new WritePair(s,data));
     }
 
     public void addWrite(SocketChannel s, byte[] data, InputStream is, int len) {
+        watcher.add(s);
         writes.add(new WritePair(s, data, is, len));
     }
 
@@ -54,6 +57,13 @@ public class WriteTask implements Runnable {
             }
             /////////////
             try {
+                for (SelectionKey k: selector.keys()){
+                    if (watcher.shouldRemove((SocketChannel) k.channel(), 15000)){
+                        k.channel().close();
+                        k.cancel();
+                        watcher.remove((SocketChannel) k.channel());
+                    }
+                }
                 selector.select(1);
                 Set<SelectionKey> keys = selector.selectedKeys();
                 if (keys.size()>0) {
