@@ -8,10 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FormDataReader {
-    public static final String JSON_MIME = MimeTypes.Application.JSON;
-    public static final String XML_MIME = MimeTypes.Application.XML;
-    public static final String MULTIPART = "multipart/form-data";
-
     private byte[] bytes;
     private String mime;
     List<FormData> formDataList = new ArrayList<>();
@@ -23,18 +19,6 @@ public class FormDataReader {
     }
 
     public FormDataReader() {
-    }
-
-    public boolean isJson() {
-        return mime.equalsIgnoreCase(JSON_MIME);
-    }
-
-    public boolean isXml() {
-        return mime.equalsIgnoreCase(XML_MIME);
-    }
-
-    public boolean isMutliPart() {
-        return mime.equalsIgnoreCase(MULTIPART);
     }
 
     public FormData getFormData(String name) {
