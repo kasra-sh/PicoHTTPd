@@ -38,6 +38,9 @@ public class FormDataReader {
     }
 
     public FormData getFormData(String name) {
+        for (FormData fd: formDataList) {
+            if (fd.name().equals(name)) return fd;
+        }
         return null;
     }
 
@@ -50,7 +53,8 @@ public class FormDataReader {
     }
 
     public List<FormData> readFormData(String boundary) throws FormDataParseException {
-        ArrayList<FormData> fd = new ArrayList<>();
+//        ArrayList<FormData> fd = new ArrayList<>();
+        if (formDataList.size()>0) return formDataList;
         ByteBuffer bos = ByteBuffer.allocate(bytes.length);
         int len = bytes.length;
         byte[] bnd = ("--" + boundary).getBytes();
@@ -78,7 +82,7 @@ public class FormDataReader {
                 if (cur == bnd.length) {
                     if (bos.position()>0) {
                         i+=1;
-                        fd.add(procFormData(bos));
+                        formDataList.add(procFormData(bos));
                         bos.clear();
                     }
                     if (i == bytes.length-3) {
@@ -95,7 +99,7 @@ public class FormDataReader {
             i++;
 
         }
-        return fd;
+        return formDataList;
     }
 
     private FormData procFormData(ByteBuffer b) throws FormDataParseException {
