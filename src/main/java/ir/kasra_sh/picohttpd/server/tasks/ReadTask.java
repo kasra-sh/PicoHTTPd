@@ -48,7 +48,7 @@ public class ReadTask implements Runnable {
             }
             try {
                 for (SelectionKey k: selector.keys()){
-                    if (watcher.shouldRemove((SocketChannel) k.channel())){
+                    if (watcher.shouldRemove((SocketChannel) k.channel(), 7000)){
                         k.channel().close();
                         k.cancel();
                         watcher.remove((SocketChannel) k.channel());

@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b749a07-ea76-480f-9603-b03241763e8d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/picohttpd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/picohttpd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/picohttpd_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/picohttpd_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/picohttpd_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/picohttpd_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/nanoserver-core-0.8a.jar" beforeDir="false" />
-    </list>
+    <list default="true" id="3b749a07-ea76-480f-9603-b03241763e8d" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,7 +42,7 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="19">
               <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,22 +51,29 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="DeadWatcher.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/DeadWatcher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Request.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/http/request/Request.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
+            <state relative-caret-position="817">
               <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
               <folding>
                 <element signature="e#1066#1067#0" expanded="true" />
-                <element signature="e#1103#1104#0" expanded="true" />
-                <element signature="e#3276#3277#0" expanded="true" />
-                <element signature="e#3303#3304#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Response.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Response.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/http/response/Response.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
@@ -84,11 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pico.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/Pico.java">
+      <file leaf-file-name="WriteTask.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/WriteTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="798">
-              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+            <state relative-caret-position="228">
+              <caret line="60" column="76" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadTask.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/ReadTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="55" column="17" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="55" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -96,7 +107,7 @@
       <file leaf-file-name="PicoServer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/PicoServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2869">
+            <state relative-caret-position="2755">
               <caret line="178" column="34" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
             </state>
           </provider>
@@ -551,8 +562,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/WritePair.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/interfaces/WriteFinishListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/interfaces/ReadListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/tasks/AcceptTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/nanoserver/server/interfaces/ConnectionHandler.java" />
@@ -602,6 +611,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/http/request/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/DeadWatcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/WriteTask.java" />
       </list>
     </option>
   </component>
@@ -625,7 +636,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -671,10 +681,30 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="picohttpd" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="picohttpd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicoHTTPd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="picohttpd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="picohttpd" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PicoHTTPd" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="picohttpd" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="tasks" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -798,10 +828,9 @@
       <window_info anchor="right" id="Maven Projects" order="3" sideWeight="0.49340865" weight="0.32947233" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32027027" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.497426" visible="true" weight="0.39891452" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.497426" visible="true" weight="0.40027136" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2027027" />
-      <window_info anchor="bottom" id="Build" order="8" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2052767" />
       <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49340865" weight="0.32947233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24967825" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4858757" weight="0.24967825" />
@@ -816,20 +845,21 @@
       <window_info anchor="bottom" id="Analyze Dataflow from" order="7" weight="0.48575306" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Build" order="8" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32700136" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Gradle" order="6" sideWeight="0.49340865" weight="0.32947233" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3207547" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22651222" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4858757" weight="0.24967825" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3207547" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280116" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.497426" weight="0.3280116" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
@@ -838,9 +868,9 @@
       <window_info anchor="right" id="Coverage" order="7" sideWeight="0.5141243" side_tool="true" weight="0.24967825" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.502574" side_tool="true" weight="0.3280116" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.497426" weight="0.3280116" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3280116" />
       <window_info anchor="right" id="Maven Projects" order="5" sideWeight="0.49340865" weight="0.32947233" />
       <window_info id="Favorites" order="4" side_tool="true" />
     </layout-to-restore>
@@ -882,9 +912,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/test1.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/test1.html" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/nio/ByteBuffer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
@@ -920,9 +948,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/fd-0.fdata">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$USER_HOME$/fd-0.fdata" />
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/http/response/cookie/Cookie.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -980,13 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/DeadWatcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/io/Serializable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1005,13 +1024,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="84" column="38" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/ReadTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1078,13 +1090,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/WriteTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/nio/NIOSocketWriter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -1106,26 +1111,16 @@
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/Pico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
+        <state relative-caret-position="741">
           <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/PicoServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2869">
+        <state relative-caret-position="2755">
           <caret line="178" column="34" selection-start-line="178" selection-start-column="34" selection-end-line="178" selection-end-column="34" />
         </state>
       </provider>
@@ -1165,13 +1160,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/http/request/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
+        <state relative-caret-position="817">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
           <folding>
             <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1103#1104#0" expanded="true" />
-            <element signature="e#3276#3277#0" expanded="true" />
-            <element signature="e#3303#3304#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1184,6 +1177,37 @@
             <element signature="method#header#0;class#Response#0" />
             <element signature="method#getMime#0;class#Response#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/ReadTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="55" column="17" lean-forward="true" selection-start-line="49" selection-start-column="16" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="21" column="72" selection-start-line="21" selection-start-column="72" selection-end-line="21" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/DeadWatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/kasra_sh/picohttpd/server/tasks/WriteTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="60" column="76" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
         </state>
       </provider>
     </entry>
